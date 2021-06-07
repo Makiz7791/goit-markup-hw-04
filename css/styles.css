@@ -59,6 +59,9 @@ body {
 .nav-item a:hover {
   color: var(--accent-text-color);
 }
+.contacts-list .mix:hover {
+  color: var(--accent-text-color);
+}
 .contacts-list {
   display: flex;
   margin-left: auto;
@@ -269,6 +272,13 @@ ul {
     0px 2px 1px rgba(0, 0, 0, 0.2);*/
   border-radius: 0px 0px 4px 4px;
 }
+.team-list h3 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.team-list li:not(:last-child) {
+  margin-right: 30px;
+}
 .icon {
   width: 20px;
   height: 20px;
@@ -296,13 +306,7 @@ ul {
   border-radius: 50%;
   display: flex;
   justify-content: center;
-}
-.team-list h3 {
-  margin-top: 30px;
-  margin-bottom: 10px;
-}
-.team-list li:not(:last-child) {
-  margin-right: 30px;
+  margin-top: 16px;
 }
 .visually-hidden {
   position: absolute !important;
@@ -314,6 +318,78 @@ ul {
   width: 1px !important;
   overflow: hidden;
   text-transform: uppercase;
+}
+.trew {
+  padding: 94px 0;
+}
+.trew-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--black-grey-color);
+  margin-bottom: 50px;
+}
+.trew-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.trew-a {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.trew-a:hover,
+.trew-a:focus {
+  border: 1px solid var(--blue-color);
+  --five-icons: var(--blue-color);
+}
+.trew-icon {
+  width: 106px;
+  height: 60px;
+  fill: #afb1b8;
+}
+.footer-container-ttt {
+  margin-right: -10px;
+  padding-left: 70px;
+  padding-bottom: 40px;
+}
+.footer-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-color);
+  margin-bottom: 20px;
+}
+.footer-container-icons {
+  display: flex;
+}
+.footer-item {
+  width: 44px;
+  height: 44px;
+  border-radius: 50% 50%;
+  background: rgba(255, 255, 255, 0.1);
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-item:focus,
+.footer-item:hover {
+  background: var(--blue-color);
+}
+.footer-icons {
+  width: 20px;
+  height: 20px;
+  fill: white;
 }
 .portfolio {
   background-color: var(--white-background-color);
