@@ -181,6 +181,16 @@ ul {
 }
 /* HERO sections */
 .hero {
+  height: 600px;
+  background-color: #2f303a;
+  color: white;
+  background-image: url(../images/fon.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+.hero {
   background-color: var(--black-background-color);
   color: var(--text-white-color);
 }
