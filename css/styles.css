@@ -319,8 +319,7 @@ body {
 .icon {
   width: 20px;
   height: 20px;
-  display: flex;
-  justify-content: center;
+  fill: currentColor;
 }
 .icons-list {
   display: flex;
@@ -344,6 +343,20 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 16px;
+}
+.icons-list a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  color: white;
+  background-color: rgba(147, 153, 153);
+  border-radius: 50%;
+}
+.icons-list a:hover,
+.icons-list a:focus {
+  background-color: cyan;
 }
 .visually-hidden {
   position: absolute !important;
