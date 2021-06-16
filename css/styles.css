@@ -14,6 +14,7 @@ body {
   color: var(---paragraph-text-color);
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.03em;
+  overflow-x: hidden;
 }
 .container {
   width: 1200px;
@@ -90,21 +91,8 @@ body {
 }
 .contacts-mail,
 .contacts-phone {
-  --header-color: currentColor;
-}
-.contacts-mail {
-  width: 16px;
-  height: 12px;
+  fill: currentColor;
   margin-right: 10px;
-  display: flex;
-  align-items: center;
-}
-.contacts-phone {
-  margin-right: 10px;
-  width: 10px;
-  height: 16px;
-  display: flex;
-  align-items: center;
 }
 .contacts-rep:not(:last-child) {
   margin-right: 50px;
@@ -299,7 +287,7 @@ body {
   display: flex;
   margin-top: 50px;
 }
-.team-list li {
+.team-list > li {
   width: 270px;
   text-align: center;
   padding-bottom: 30px;
@@ -394,24 +382,25 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #afb1b8;
 }
 .trew-a:hover,
 .trew-a:focus {
-  border: 1px solid var(--blue-color);
-  --five-icons: var(--blue-color);
+  border-color: var(--accent-text-color);
+  color: var(--accent-text-color);
 }
 .trew-icon {
   width: 106px;
   height: 60px;
-  fill: #afb1b8;
+  fill: currentColor;
 }
-.footer-container-ttt {
-  padding-bottom: 100px;
-  position: absolute;
-
-  height: 16px;
-  left: 516px;
-  top: 2751px;
+.footer .container {
+  display: flex;
+}
+.footer-block-1 {
+  margin-right: 70px;
+}
+.footer-block-2 {
 }
 .footer-title {
   font-weight: bold;
@@ -419,7 +408,7 @@ body {
   line-height: 1.142;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--white-color);
+  color: var(--text-white-color);
   margin-bottom: 20px;
 }
 .footer-container-icons {
