@@ -30,13 +30,21 @@
           </ul>
         </nav>
         <ul class="contacts-list">
-          <li>
-            <a class="mail" href="mailto:info@devstudio.com">
+          <li class="contacts-rep">
+            <a href="mail:info@devstudio.com">
+              <svg class="contacts-mail" width="16" height="12">
+                <use href="./images/icons/sprite.svg#icon-mail"></use>
+              </svg>
               info@devstudio.com
             </a>
           </li>
-          <li>
-            <a class="phone" href="tel:+380961111111">+38 096 111 11 11</a>
+          <li class="contacts-rep">
+            <a href="tel:+380961111111">
+              <svg class="contacts-phone" width="10" height="16">
+                <use href="./images/icons/sprite.svg#icon-phone"></use>
+              </svg>
+              +38 096 111 11 11
+            </a>
           </li>
         </ul>
       </div>
@@ -152,49 +160,51 @@
     </main>
     <footer class="footer">
       <div class="container">
-        <a class="logo" lang="en" href="/">
-          <span class="logofirst">Web</span>
-          <span class="logothird">Studio</span>
-        </a>
-        <address class="adress" id="contacts">
-          <p>г. Киев, пр-т Леси Украинки, 26</p>
-          <ul>
-            <li>
-              <a class="adress-link" href="mailto:info@example.com">
-                info@example.com
-              </a>
-            </li>
-            <li>
-              <a class="adress-link" href="tel:+380991111111">
-                +38 099 111 11 11
-              </a>
-            </li>
-          </ul>
-        </address>
-      </div>
-      <div class="footer-container-ttt">
-        <p class="footer-title">Присоединяйтесь</p>
-        <div class="footer-container-icons">
-          <a class="footer-item" href="#">
-            <svg class="footer-icons">
-              <use href="./images/icons/sprite.svg#icon-instagram"></use>
-            </svg>
+        <div class="footer-block-1">
+          <a class="logo" lang="en" href="/">
+            <span class="logofirst">Web</span>
+            <span class="logothird">Studio</span>
           </a>
-          <a class="footer-item" href="#">
-            <svg class="footer-icons">
-              <use href="./images/icons/sprite.svg#icon-twitter"></use>
-            </svg>
-          </a>
-          <a class="footer-item" href="#">
-            <svg class="footer-icons">
-              <use href="./images/icons/sprite.svg#icon-facebook"></use>
-            </svg>
-          </a>
-          <a class="footer-item" href="#">
-            <svg class="footer-icons">
-              <use href="./images/icons/sprite.svg#icon-linkedin"></use>
-            </svg>
-          </a>
+          <address class="address" id="contacts">
+            <p>г. Киев, пр-т Леси Украинки, 26</p>
+            <ul class="address-list">
+              <li>
+                <a class="address-link" href="mailto:info@example.com">
+                  info@example.com
+                </a>
+              </li>
+              <li>
+                <a class="address-link" href="tel:+380991111111">
+                  +38 099 111 11 11
+                </a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-block-2">
+          <p class="footer-title">Присоединяйтесь</p>
+          <div class="footer-container-icons">
+            <a class="footer-item" href="#">
+              <svg class="footer-icons">
+                <use href="./images/icons/sprite.svg#icon-instagram"></use>
+              </svg>
+            </a>
+            <a class="footer-item" href="#">
+              <svg class="footer-icons">
+                <use href="./images/icons/sprite.svg#icon-twitter"></use>
+              </svg>
+            </a>
+            <a class="footer-item" href="#">
+              <svg class="footer-icons">
+                <use href="./images/icons/sprite.svg#icon-facebook"></use>
+              </svg>
+            </a>
+            <a class="footer-item" href="#">
+              <svg class="footer-icons">
+                <use href="./images/icons/sprite.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </div>
         </div>
       </div>
     </footer>
